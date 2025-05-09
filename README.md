@@ -1,4 +1,5 @@
-# river-dots
+# Dot files for my riverWM config
+https://codeberg.org/river/river
 ---
 ### Basic info:
 - the init script needs to be in ~/.config/river folder which you should create if it isn't there already. you might as well put scripts folder and other things in there too.

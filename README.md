@@ -1,4 +1,4 @@
-# Dot files for my riverWM config
+# Dots for my riverWM config
 https://codeberg.org/river/river
 ---
 ### Basic info:

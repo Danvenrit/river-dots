@@ -1,9 +1,9 @@
 # Dots for my riverWM config
-https://codeberg.org/river/river
----
 
 ![Showcase](https://github.com/user-attachments/assets/035ecb1f-e961-4bf7-a84a-503a748cac45)
 
+---
+https://codeberg.org/river/river
 ---
 ### Basic info:
 - the init script needs to be in ~/.config/river folder which you should create if it isn't there already. you might as well put scripts folder and other things in there too.

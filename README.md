@@ -1,7 +1,8 @@
 # Dots for my riverWM config
----
+
+### River
 https://codeberg.org/river/river
----
+
 ### Basic info:
 - the init script needs to be in ~/.config/river folder which you should create if it isn't there already. you might as well put scripts folder and other things in there too.
 - the waybar should also be in ~/.config/waybar

@@ -1,7 +1,4 @@
 # Dots for my riverWM config
-
-![Showcase](https://github.com/user-attachments/assets/035ecb1f-e961-4bf7-a84a-503a748cac45)
-
 ---
 https://codeberg.org/river/river
 ---
@@ -17,3 +14,6 @@ yay -S river waybar
 - https://github.com/areif-dev/river-bsp-layout
 
 - there are bunch more programs needed, but currently I haven't listed all of them, but it can be followed from the script.
+
+### How it looks
+![Showcase](https://github.com/user-attachments/assets/035ecb1f-e961-4bf7-a84a-503a748cac45)

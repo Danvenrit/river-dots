@@ -1,6 +1,7 @@
-![Showcase](https://github.com/user-attachments/assets/0a79a690-a1b5-43b0-94ba-a0ea37de25ec)# Dots for my riverWM config
+# Dots for my riverWM config
 https://codeberg.org/river/river
 ---
+
 ![Showcase](https://github.com/user-attachments/assets/035ecb1f-e961-4bf7-a84a-503a748cac45)
 
 ---

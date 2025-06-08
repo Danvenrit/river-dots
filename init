@@ -103,6 +103,12 @@ riverctl spawn "waybar -c ~/.config/waybar/river/config -s ~/.config/waybar/rive
 riverctl spawn "dunst >/dev/null 2>&1 &"
 riverctl spawn "wl-paste >/dev/null 2>&1 &"
 
+
+riverctl hide-cursor timeout 5000
+riverctl focus-follows-cursor always
+riverctl set-cursor-warp on-output-change
+
+# scratchpad
 for i in $(seq 1 9)
 do
     tags=$((1 << ($i - 1)))
@@ -168,7 +174,7 @@ do
     riverctl map $mode None XF86AudioRaiseVolume  spawn 'pamixer -i 5'
     riverctl map $mode None XF86AudioLowerVolume  spawn 'pamixer -d 5'
     riverctl map $mode None XF86AudioMute         spawn 'pamixer --toggle-mute'
-
+5
     # Control MPRIS aware media players with playerctl (https://github.com/altdesktop/playerctl)
     riverctl map $mode None XF86AudioMedia spawn 'playerctl play-pause'
     riverctl map $mode None XF86AudioPlay  spawn 'playerctl play-pause'
@@ -195,8 +201,8 @@ riverctl rule-add -title 'Volume Control' float
 riverctl rule-add -title 'Bitwarden' float
 riverctl rule-add -title 'Vesktop' float
 riverctl rule-add -title 'órarend.png' float
-
-
+riverctl rule-add -title 'JamesDSP for Linux' float
+riverctl rule-add -title 'memes - Thunar' float
 
 # Make all views with an app-id that starts with "float" and title "foo" start floating.
 riverctl rule-add -app-id 'float*' -title 'foo' float
@@ -216,6 +222,8 @@ riverctl map normal Super E spawn "nemo"
 riverctl map normal Super M spawn "thunar /home/dan/Desktop/files/memes/"
 riverctl map normal Super O spawn "eog ~/Desktop/órarend.png"
 riverctl map normal Super C spawn "wl-color-picker"
+riverctl map normal Super+Control F spawn "way-displays -t DISABLED eDP-1; sleep 1; way-displays -t DISABLED eDP-1" 
+riverctl map normal Super L spawn "lutris"
 
 # take screenshot
 riverctl map normal Super Print spawn "/home/dan/.config/river/scripts/screenshot-to-clipboard.sh"
